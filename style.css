@@ -105,6 +105,35 @@ video{
     font-weight: 450;
     width: 40%;
 }
+#page1 #arrow{
+
+height: 160px;
+width: 160px;
+background-color:transparent;
+position: absolute;
+display: flex;
+align-items: center;
+justify-content: center;
+border-radius: 50%;
+bottom: -1.5%;
+left: -2%;
+border : 2px solid #95c11e;
+transition: all ease 0.5s;
+
+}
+#page1 #arrow i {
+  font-size: 40px;
+  font-weight: 150;
+}
+#page1 #arrow:hover{
+scale: 0.5;
+background-color: #95c11e;
+
+
+}
+
+
+
 #page2
 {
   font-family: "montserrat";

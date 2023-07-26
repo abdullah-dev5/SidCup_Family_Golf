@@ -51,14 +51,14 @@ gsap.to("#main", {
 gsap.from("#about-us img,#about-us-in", {
   y: 90,
   opacity: 0,
-  duration: 1,
+  duration: 1.5,
   scrollTrigger: {
     trigger: "#about-us",
     scroller: "body",
     // markers:true,
     start: "top 70%",
     end: "top 65%",
-    scrub: 2,
+    scrub: 3,
   },
 });
 gsap.from(".card", {
@@ -72,7 +72,7 @@ gsap.from(".card", {
     // markers:false,
     start: "top 70%",
     end: "top 65%",
-    scrub: 2,
+    scrub: 3,
   },
 });
 gsap.from("#colon1", {
